@@ -20,4 +20,6 @@
 
 .content {
   min-height: 1200px;
+  padding: 15px;
+  background-color: #e5e5e5;
 }
