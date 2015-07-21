@@ -1,13 +1,13 @@
 #primary-header {
   background: black;
   color: white;
-  padding: 15px 0;
+  padding: 20px 0;
   text-align: center;
 }
 
 @media (min-width: 600px) {
   #primary-header {
-    padding: 5px 0;
+    padding: 10px 0;
   }
 }
 
