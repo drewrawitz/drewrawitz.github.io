@@ -1,0 +1,17 @@
+#primary-header {
+  background: black;
+  color: white;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.content {
+  min-height: 1200px;
+}

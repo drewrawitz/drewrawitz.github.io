@@ -1,0 +1,36 @@
+{
+  "name": "jquery-fixed-header",
+  "version": "0.1.0",
+  "homepage": "https://github.com/drewrawitz/JS-Fixed-Header",
+  "authors": [
+    "Drew Rawitz <email@drewrawitz.com>"
+  ],
+  "description": "A jQuery Plugin to fix a header to the top of the window and pad down the content to the height of the bar. This will work on responsive websites where the height of the header may change.",
+  "main": "jquery.fixedHeader.js",
+  "keywords": [
+    "jquery",
+    "fixed",
+    "header"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": ">=1.4"
+  },
+  "_release": "0.1.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.1.0",
+    "commit": "0c5394f3d1d41cf3e49d5cfa71f129e7521158d5"
+  },
+  "_source": "git://github.com/drewrawitz/JS-Fixed-Header.git",
+  "_target": "~0.1.0",
+  "_originalSource": "jquery-fixed-header",
+  "_direct": true
+}

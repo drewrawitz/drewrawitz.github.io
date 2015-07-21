@@ -1,1 +1,38 @@
-Coming Soon
+<!doctype html>
+<html>
+  <head>
+    <title>jQuery Fixed Header Demo</title>
+    <link rel="stylesheet" src="style.css">
+  </head>
+  <body>
+
+  <header id="primary-header">
+    Fixed Header
+  </header>
+
+  <div class="page-wrapper">
+    <section class="content">
+      <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+      <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+
+      <ul>
+         <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+         <li>Aliquam tincidunt mauris eu risus.</li>
+         <li>Vestibulum auctor dapibus neque.</li>
+      </ul>
+    </section>
+  </div>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+  <script src="bower_components/jquery-fixed-header/jquery.fixedHeader.js"></script>
+  <script>
+  $(window).load(function () {
+    $("#primary-header").fixedHeader({
+      contentElement: ".page-wrapper",
+      class: "fixed-header"
+    });
+  });
+  </script>
+
+  </body>
+</html>
