@@ -1,6 +1,6 @@
 {
   "name": "jquery-fixed-header",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "homepage": "https://github.com/drewrawitz/JS-Fixed-Header",
   "authors": [
     "Drew Rawitz <email@drewrawitz.com>"
@@ -23,14 +23,14 @@
   "dependencies": {
     "jquery": ">=1.4"
   },
-  "_release": "0.1.0",
+  "_release": "0.1.2",
   "_resolution": {
     "type": "version",
-    "tag": "0.1.0",
-    "commit": "0c5394f3d1d41cf3e49d5cfa71f129e7521158d5"
+    "tag": "0.1.2",
+    "commit": "83b360ad3c168f654058c72667efccac47de9a6e"
   },
   "_source": "git://github.com/drewrawitz/JS-Fixed-Header.git",
-  "_target": "~0.1.0",
+  "_target": "~0.1.2",
   "_originalSource": "jquery-fixed-header",
   "_direct": true
 }
