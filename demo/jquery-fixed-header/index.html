@@ -48,7 +48,7 @@
 &lt;/script&gt;</code></pre>
 
       <h3>CSS</h3>
-      <p>Make sure you have the appropriate styles in your stylesheet for when your class gets applied. If you choose to add a class called <strong>fixed-header</strong>, then you should have something like this:</p>
+      <p>Make sure you have the appropriate styles in your stylesheet for when your class gets applied. If you choose to add a class called <strong>fixed-header</strong>, then you should have something like this in your stylesheet:</p>
       <pre class="language-css"><code class="language-css">.fixed-header {
   position: fixed;
   top: 0;
@@ -58,28 +58,30 @@
 }</pre></code>
 
       <h2>Available Options</h2>
-      <table>
-        <tbody>
-          <tr>
-            <td><strong>contentElement</strong></td>
-            <td>String</td>
-            <td>Default: body</td>
-            <td>The element that should be padded down.</td>
-          </tr>
-          <tr>
-            <td><strong>class</strong></td>
-            <td>String</td>
-            <td>Optional</td>
-            <td>An optional class that will be applied to the element this plugin is being used on.</td>
-          </tr>
-          <tr>
-            <td><strong>breakpoint</strong></td>
-            <td>Integer</td>
-            <td>Optional</td>
-            <td>An optional breakpoint that you can use. The fixed header will not be applied if the browser width is less than this value</td>
-          </tr>
-        </tbody>
-      </table>
+      <div class="table-container">
+        <table>
+          <tbody>
+            <tr>
+              <td><strong>contentElement</strong></td>
+              <td>String</td>
+              <td>Default: body</td>
+              <td>The element that should be padded down.</td>
+            </tr>
+            <tr>
+              <td><strong>class</strong></td>
+              <td>String</td>
+              <td>Optional</td>
+              <td>An optional class that will be applied to the element this plugin is being used on.</td>
+            </tr>
+            <tr>
+              <td><strong>breakpoint</strong></td>
+              <td>Integer</td>
+              <td>Optional</td>
+              <td>An optional breakpoint that you can use. The fixed header will not be applied if the browser width is less than this value</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
 
       <h2>Feedback &amp; Support</h2>
       <p>For any questions, issues, comments, concerns please feel free to open an issue on the <a href="https://github.com/drewrawitz/jquery-fixed-header">GitHub Page</a>, or tweet me directly <a href="http://www.twitter.com/drewrawitz">@DrewRawitz</a>.
