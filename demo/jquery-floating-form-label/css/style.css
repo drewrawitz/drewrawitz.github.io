@@ -89,11 +89,11 @@ table td {
 
 /* Example */
 .form-wrapper {
-  margin-top: 25px;
+  margin-top: 20px;
 }
 
 .form-wrapper .form-group {
-  margin: 5px;
+  margin: 10px 5px;
   display: inline-block;
 }
 
