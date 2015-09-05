@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+  <head>
+    <title>jQuery Floating Form Label Demo</title>
+    <link href='http://fonts.googleapis.com/css?family=Francois+One' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+    <link rel="stylesheet" href="css/floatingFormLabel.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/prism.css">
+  </head>
+  <body>
+
+  <header id="primary-header">
+    <div class="container">
+      jQuery Floating Form Label
+      <a id="fork" href="https://github.com/drewrawitz/jquery-floating-form-label"><img style="position: absolute; top: 0; right: 0; border: 0; z-index: 9999;" src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"></a>
+    </div>
+  </header>
+
+  <section class="content">
+    <div class="container">
+      <p>A jQuery Plugin to turn an input placeholder into a floated form label when selected or filled out.</p>
+
+      <h2>Example</h2>
+      <p>Start typing in the fields below.</p>
+
+      <form class="form-wrapper">
+        <div class="form-group">
+          <input type="text" class="float-label" placeholder="Username" required>
+        </div>
+        <div class="form-group">
+          <input type="password" class="float-label" placeholder="Password" required>
+        </div>
+      </form>
+
+      <h2>Installation</h2>
+      <p>Include <a href="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js">jQuery</a> and the <span class="highlight">jquery.floatingFormLabel.js</span> script:</p>
+      <pre class="language-markup"><code class="language-markup">&lt;script src=&quot;http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;jquery.floatingFormLabel.js&quot;&gt;&lt;/script&gt;</code></pre>
+
+      <p><a href="https://github.com/bower/bower">Bower</a> users can get the source with:</p>
+      <pre class="language-markup"><code class="language-markup">bower install jquery-floating-form-label</code></pre>
+
+      <h2>Basic Usage</h2>
+      <p>An example of how this demo page uses this script:</p>
+
+      <h3>JS</h3>
+      <pre class="language-javascript"><code class="langauge-javascript">&lt;script&gt;
+  $(document).ready(function () {
+    $(&quot;.float-label&quot;).floatingFormLabel();
+  });
+&lt;/script&gt;</code></pre>
+
+      <h3>CSS</h3>
+      <p>Make sure to include the <span class="highlight">_floatingFormLabel.scss</span> sass partial to your folder structure . I've also included the regular compiled css file if you're not using sass.</p>
+
+      <h2>Available Options</h2>
+      <div class="table-container">
+        <table>
+          <tbody>
+            <tr>
+              <td><strong>addRequiredAsterisk</strong></td>
+              <td>Boolean</td>
+              <td>Default: true</td>
+              <td>Prepend an asterisk to the input placeholder if using the HTML5 Required Property</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Feedback &amp; Support</h2>
+      <p>For any questions, issues, comments, concerns please feel free to open an issue on the <a href="https://github.com/drewrawitz/jQuery-Floating-Form-Label">GitHub Page</a>, or tweet me directly <a href="http://www.twitter.com/drewrawitz">@DrewRawitz</a>.
+
+    </div>
+  </section>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+  <script src="js/jquery.floatingFormLabel.js"></script>
+  <script src="js/prism.js"></script>
+  <script>
+    $(document).ready(function () {
+      $(".float-label").floatingFormLabel();
+    });
+  </script>
+
+  </body>
+</html>
