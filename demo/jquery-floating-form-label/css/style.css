@@ -101,4 +101,5 @@ table td {
   min-width: 300px;
   padding: 15px;
   border: 1px solid #ccc;
+  border-radius: 5px;
 }
